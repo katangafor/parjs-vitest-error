@@ -10,7 +10,7 @@ test("adds 1 + 2 to equal 3", () => {
 
   // this line causes the infinite loop or whatever.
   // comment out this line, abort vitest, then re-run vitest to watch the test pass
-  // const paddedElement = tupleElement.pipe(between(whitespace()));
+  const paddedElement = tupleElement.pipe(between(whitespace()));
 
   expect(sum(1, 2)).toBe(3);
 });
