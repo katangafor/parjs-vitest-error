@@ -7,12 +7,15 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "test": "vitest"
+    "test": "vitest",
+    "wdio": "wdio run ./wdio.conf.ts"
   },
   "devDependencies": {
-    "typescript": "^5.0.2",
-    "vite": "^4.4.5",
-    "vitest": "^0.34.6"
+    "@vitest/browser": "^1.3.1",
+    "@wdio/cli": "latest",
+    "typescript": "5.3.3",
+    "vite": "5.1.4",
+    "vitest": "1.3.1"
   },
   "dependencies": {
     "parjs": "^0.16.1"
